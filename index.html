@@ -5,9 +5,10 @@
     <title>SYME|HINTON|WEDDING</title>
     <link rel="stylesheet" href="https://use.typekit.net/upp8cvx.css">
     <style>
-      body{
+      body, a{
         color:#263A4B;
         background-color:#F4E1BC;
+        text-decoration:none;
       }
       #page{
         margin:150px 0 0 10vw;
@@ -27,17 +28,17 @@
         margin-bottom:150px;
       }
       #nav{
-        font-family: freight-sans-compressed-pro, sans-serif;
-        font-style: normal;
-        font-weight: 400;
-        text-transform:uppercase;
         padding:0;
         flex-shrink:0;
         flex-grow:0;
       }
       #nav li{
         display:inline;
-        
+        text-transform:uppercase;
+        font-family: freight-sans-compressed-pro, sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size:1em;
       }
       #nav-bar-1, #nav-bar-2{
         flex-grow:1;
@@ -51,7 +52,7 @@
       #nav-bar-2{
         flex-grow:10;
       }
-      p, h3{
+      p, h3, li{
         margin:0;
         font-family: freight-sans-condensed-pro, sans-serif;
         font-style: normal;
@@ -71,6 +72,17 @@
       p{
         margin-bottom:50px;
       }
+      #content a{
+        font-weight:500;
+        text-decoration:underline;
+      }
+      em{
+        font-weight:500;
+        font-style:normal;
+      }
+      ol li, ul.schedule-list li{
+        margin-bottom:50px;
+      }
     </style>
   </head>
   <body>
@@ -83,22 +95,82 @@
       <div id="nav-container">
         <div id="nav-bar-1"></div>
         <ul id="nav">
-          <li>Date</li> &middot;
-          <li>Location</li> &middot;
-          <li>RSVP</li> &middot;
-          <li>Schedule</li> &middot;
-          <li>Lodging</li> &middot;
-          <li>Guide</li> &middot;
+          <li><a href="#wedding">Wedding</a></li> &middot;
+          <li><a href="#location">Location & Date</a></li> &middot;
+          <li><a href="#rsvp">RSVP</a></li> &middot;
+          <li><a href="#accommodations">Accommodations</a></li> &middot;
+          <li><a href="#travel">Travel</a></li> &middot;
+          <li><a href="#schedule">Schedule</a></li> &middot;
           <li>FAQ</li>
         </ul>
         <div id="nav-bar-2"></div>
       </div>
       <div id="content">
-        <h3>Date</h3>
-        <p>August 25, 2018</p>
-        <h3>Location</h3>
+        <h3 id="wedding">Wedding</h3>
+        <p>Hello! We are very excited to invite you to our wedding! Paper invitations to come, but please consider this your official save the date! The ceremony and reception will begin at 4pm on Saturday, August 25, 2018, at Los Poblanos, a Historic Inn and working lavender farm in the North Valley of Albuquerque, New Mexico (where Rachel grew up). Come for the vows, stay for a night of drinks, dinner, and dancing. Cocktail attire requested.
+        </p>
+        <h3 id="location">Location & Date</h3>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          August 25, 2018, 4pm<br/>
+          Los Poblanos de Albuquerque<br/>
+          Albuquerque, New Mexico
+        </p>
+        <h3 id="rsvp">RSVP</h3>
+        <p>
+          Please RSVP by sending an email to rachelanderik2018@gmail.com
+        </p>
+        <h3 id="accommodations">Accomodations</h3>
+        <p>
+          There are a few options for where to stay! All three options are within walking distance of the Hotel Albuquerque, which is where the shuttle will pick up and drop off wedding guests.
+        </p>
+        <ol>
+          <li>
+            For your convenience, we have pre-booked a block of (discounted) rooms at the historic <a href="https://www.hotelabq.com/">Hotel Albuquerque</a> ($139/night)<br/><br/>
+            <em>Phone: </em> 1-800-237-2133<br/><br/>
+            Ask for Rachel Syme/Erik Hinton Wedding room block (before Aug 2) or refer to block code 1808SH
+          </li>
+          <li>
+            We have also booked a block of (slightly less expensive) rooms at the nearby <a href="https://www.riograndeinn.com/">Best Western Rio Grande Inn</a> ($108/night).<br/><br/>
+            <em>Phone:</em> 1-800-959-4726<br/></br>
+            Ask for Syme-Hinton Wedding (before July 24)
+          </li>
+          <li>
+            We also recommend the <a href="https://www.hotelchaco.com/">Hotel Chaco</a>, an elegant new hotel across the street from the Hotel Albuquerque, if you are looking for something really special.
+          </li>
+        </ol>
+        </p>
+        <h3 id="travel">Travel</h3>
+        <p>
+        If you are traveling to Albuquerque from New York City, the best option (and a direct flight) is to fly <a href="https://book.jetblue.com/shop/search/#/">JetBlue</a> from JFK. Right now, the fares are very affordable, so we highly recommend booking your flights soon.<br/><br/>
+
+          For all travelers: Please be sure to fly into the Albuquerque International Sunport.
+        </p>
+        <h3 id="schedule">Schedule</h3>
+        <p>
+          To help you plan your trip, we wanted to let you know everything we have planned for the wedding weekend . 
+          <ul class="schedule-list">
+            <li>
+              <em>Friday, August 24th:</em> 6 pm<br/><br/>
+              Casual welcome dinner (open to all) the night before the wedding (Friday, August 24th) at the home of Joyce Phillips and Bill Syme (Rachel's parents) in Albuquerque. We have already booked the best local taco truck in town. 
+            </li>
+
+            <li>
+              <em>Saturday, August 25th:</em> 10 AM<br/><br/>
+              On the morning of the wedding, we are planning a hiking excursion and other local activities.
+
+            </li>
+
+            <li>
+              <em>Saturday, August 25th:</em> 4 PM<br/><br/>
+              Wedding at Los Poblanos Lavender Farm<br/><br/>
+              (Shuttle transportation will be provided to and from the venue.
+            </li>
+
+            <li>
+              <em>Sunday, August 26th:</em> 11 AM <br/><br/>
+              Brunch reception where everyone can decompress and drink a lot of coffee and mimosas. More details to come.
+            </li>
+          </ul>
         </p>
       </div>
     </div>
