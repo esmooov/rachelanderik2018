@@ -5,6 +5,15 @@
     <title>SYME|HINTON|WEDDING</title>
     <link rel="stylesheet" href="https://use.typekit.net/upp8cvx.css">
     <style>
+      #content{
+        width:600px;
+        padding-right:40px;
+        background-color:#F4E1BC;
+      }
+      #header, #nav-container, #content{
+        z-index:100; 
+        position:relative;
+      }
       body, a{
         color:#263A4B;
         background-color:#F4E1BC;
@@ -26,6 +35,7 @@
         display: flex;
         margin-top:20px;
         margin-bottom:150px;
+        background-color: #F4E1BC;
       }
       #nav{
         padding:0;
@@ -58,7 +68,6 @@
         font-style: normal;
         font-weight: 300;
         font-size:1.5em;
-        width:600px;
         -webkit-hyphens: auto;
         -ms-hyphens: auto;
         hyphens: auto;
@@ -82,6 +91,15 @@
       }
       ol li, ul.schedule-list li{
         margin-bottom:50px;
+      }
+      #lav{
+        height:100%;
+        width:50%;
+        position:fixed;
+        top:0;
+        right:-100px;
+        background-image:url(lavender.png);
+        background-size:cover;
       }
     </style>
   </head>
@@ -173,6 +191,7 @@
           </ul>
         </p>
       </div>
+      <div id="lav"></div>
     </div>
   </body>
 </html>
