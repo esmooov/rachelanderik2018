@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>SYME|HINTON|WEDDING</title>
     <link rel="stylesheet" href="https://use.typekit.net/upp8cvx.css">
     <style>
@@ -20,7 +21,7 @@
         text-decoration:none;
       }
       #page{
-        margin:150px 0 0 10vw;
+        margin:120px 0 0 10vw;
       }
       h1{
         font-family: gastromond, sans-serif;
@@ -41,6 +42,9 @@
         padding:0;
         flex-shrink:0;
         flex-grow:0;
+      }
+      #nav br{
+        display:none;
       }
       #nav li{
         display:inline;
@@ -101,6 +105,41 @@
         background-image:url(lavender.png);
         background-size:cover;
       }
+      @media only screen and (max-width: 950px)  {
+        #lav{
+            display:none;
+        } 
+        #page{
+            margin:20px;
+            margin-top:40px;
+        }
+        h1{
+            font-size:12vw;
+        }
+        #nav-bar-1, #nav-bar-2{
+            display:none;
+        }
+        #nav-container{
+            margin-top:10px;
+            margin-bottom:50px;
+        }
+        #nav{
+            text-align:center;
+            font-size:1.1em;
+            margin: 0 auto;
+        }
+        #nav br{
+          display:block;
+        }
+        #nav .last-dot{
+            display:none;
+        }
+        #content{
+          width:100%;
+          padding-right:0px;
+          background-color:#F4E1BC;
+        }
+      }
     </style>
   </head>
   <body>
@@ -116,11 +155,12 @@
           <li><a href="#wedding">Wedding</a></li> &middot;
           <li><a href="#location">Location & Date</a></li> &middot;
           <li><a href="#rsvp">RSVP</a></li> &middot;
-          <li><a href="#accommodations">Accommodations</a></li> &middot;
+          <li><a href="#accommodations">Accommodations</a></li> <span class="last-dot">&middot;</span>
+          <br/>
           <li><a href="#travel">Travel</a></li> &middot;
           <li><a href="#schedule">Schedule</a></li> &middot;
           <li><a href="#registry">Registry</a></li> &middot;
-          <li>FAQ</li>
+          <li><a href="#faq">FAQ</a></li>
         </ul>
         <div id="nav-bar-2"></div>
       </div>
@@ -197,6 +237,47 @@
         <h3 id="registry">Registry</h3>
         <p>
          Coming soon!
+        </p>
+        <h3 id="faq">FAQ</h3>
+        <p>
+          <ul class="schedule-list">
+            <li>
+              <em>This is all very exciting! What should I do first?</em><br/>
+              We know that the wedding is months away, but we highly recommend booking your travel and hotel accommodations now, in order to take advantage of lower plane fares and our special group hotel rates. 
+            </li>
+            <li>
+              <em>How do I RSVP?</em><br/>
+              For now, please send us an RSVP email (preferably by March 15) at rachelanderik@gmail.com. Please include your mailing address so we can send you a paper invitation down the line. We can’t wait to see you.
+            </li>
+            <li>
+              <em>When should I arrive?</em><br/>
+              It’s up to you! But if you want to make the welcome dinner, and you are one of our friends traveling from New York City, we recommend flying in on the night of Thursday, August 23 (the JetBlue flight leaves in the evening). 
+            </li>
+            <li>
+              <em>Do I need to rent a car?</em><br/>
+              Albuquerque is, like most Southwestern cities, a land of great sprawl. A car is always useful, especially if you are hoping to have some extra adventures (such as driving to Santa Fe, going turquoise shopping, trying out all the different breakfast burritos around town, or taking in the landscape). However, Albuquerque does have taxis and Lyft, and we will be providing a shuttle to the wedding from the Hotel Albuquerque in Old Town. If you are on the fence about renting a car, just let us know! Perhaps we can pair you with someone else, you can split the cost and have those adventures together…
+            </li>
+            <li>
+              <em>So, what do I need to bring? What is the weather like in Albuquerque in August?</em><br/>
+              The weather in New Mexico is always beautiful! But August is a very special time. It will be hot, but dry, so you won’t have to worry about humidity. The air will smell like cedar and sage and green chile and you will be able to see a sky full of stars. We recommend bringing a bathing suit and shoes you can hike in -- we will be going on an easy group walk through the desert foothills on the Sunday after the wedding, and most of the hotels we listed have nice pools where you can lounge and bask in the sun.
+            </li>
+            <li>
+              <em>What is the wedding attire? I want an excuse to buy new shoes.</em><br/>
+              The official dress code is “cocktail,” but we are also suggesting that people get inspired by the idea of “desert chic.” Feel free to go as fancy as you want. Bolo ties will be accepted. Birkenstocks will not.
+            </li>
+            <li>
+              <em>What is the official wedding hashtag?</em><br/>
+              Stay tuned. It will be unveiled in one of those elaborate videos that bougie couples make to "gender reveal" their baby. However, the official wedding hashtag will be way less gender normative and not involve a baby. Actually, you will have to solve an elaborate series of puzzles to find the hashtag. Even if you do discover what the official wedding hashtag is, it will disappear from sight, as your hands reach for a dying smartphone. As you realize you will never tweet again, you'll hear a booming voice intone, "No one else could tweet this hashtag, since this hashtag was made only for you. I am now going to delete it."
+            </li>
+            <li>
+              <em>What is the official wedding reading list? How can I prepare for the exam portion of the wedding?</em><br/>
+              I won't mince words. Much like they say before the starting gun of the annual three-legged tartlet race, this is not going to be a cakewalk. The first few rounds will test your knowledge of post-Marxist theories of democratic dissensus. The second through fifth segments will be successive lightning rounds about Sex and the City, Serbian film giant Dusan Makavejev, the myth of Los Angeles, and favorite mixed dog breeds.
+            </li>
+            <li>
+              <em>Wait! I still have more questions.</em><br/>
+              No problem. Email us at rachelanderik2018@gmail.com and we will get back to you with all the answers your heart desires. 
+            </li>
+          </ul>
         </p>
       </div>
       <div id="lav"></div>
