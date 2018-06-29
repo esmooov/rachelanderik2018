@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>SYME|HINTON|WEDDING</title>
     <link rel="stylesheet" href="https://use.typekit.net/upp8cvx.css">
     <style>
@@ -20,7 +21,7 @@
         text-decoration:none;
       }
       #page{
-        margin:150px 0 0 10vw;
+        margin:120px 0 0 10vw;
       }
       h1{
         font-family: gastromond, sans-serif;
@@ -41,6 +42,9 @@
         padding:0;
         flex-shrink:0;
         flex-grow:0;
+      }
+      #nav br{
+        display:none;
       }
       #nav li{
         display:inline;
@@ -101,6 +105,41 @@
         background-image:url(lavender.png);
         background-size:cover;
       }
+      @media only screen and (max-width: 950px)  {
+        #lav{
+            display:none;
+        } 
+        #page{
+            margin:20px;
+            margin-top:40px;
+        }
+        h1{
+            font-size:12vw;
+        }
+        #nav-bar-1, #nav-bar-2{
+            display:none;
+        }
+        #nav-container{
+            margin-top:10px;
+            margin-bottom:50px;
+        }
+        #nav{
+            text-align:center;
+            font-size:1.1em;
+            margin: 0 auto;
+        }
+        #nav br{
+          display:block;
+        }
+        #nav .last-dot{
+            display:none;
+        }
+        #content{
+          width:100%;
+          padding-right:0px;
+          background-color:#F4E1BC;
+        }
+      }
     </style>
   </head>
   <body>
@@ -116,50 +155,55 @@
           <li><a href="#wedding">Wedding</a></li> &middot;
           <li><a href="#location">Location & Date</a></li> &middot;
           <li><a href="#rsvp">RSVP</a></li> &middot;
-          <li><a href="#accommodations">Accommodations</a></li> &middot;
+          <li><a href="#accommodations">Accommodations</a></li> <span class="last-dot">&middot;</span>
+          <br/>
           <li><a href="#travel">Travel</a></li> &middot;
           <li><a href="#schedule">Schedule</a></li> &middot;
-          <li>FAQ</li>
+          <li><a href="#registry">Registry</a></li> &middot;
+          <li><a href="#faq">FAQ</a></li>
         </ul>
         <div id="nav-bar-2"></div>
       </div>
       <div id="content">
-        <h3 id="wedding">Wedding</h3>
-        <p>Hello! We are very excited to invite you to our wedding! Paper invitations to come, but please consider this your official save the date. The ceremony and reception will begin at 4pm on Saturday, August 25, 2018, at Los Poblanos, a Historic Inn and working lavender farm in the North Valley of Albuquerque, New Mexico (where Rachel grew up). Come for the vows, stay for a night of drinks, dinner, and dancing. Cocktail attire requested.
+        <h3 id="wedding">The Wedding</h3>
+        <p>Hello! We (Rachel and Erik) are very excited to invite you to our wedding this summer! Paper invitations to come, but please consider this your official save the date. The ceremony and reception will begin at 4pm on Saturday, August 25, 2018, at Los Poblanos, a historic inn and working lavender farm in the North Valley of Albuquerque, New Mexico (where Rachel grew up). Come for the vows, stay for a night of drinks, dinner, and dancing. Cocktail attire requested.
         </p>
         <h3 id="location">Location & Date</h3>
         <p>
           August 25, 2018, 4pm<br/>
-          <a href="https://www.lospoblanos.com/">Los Poblanos de Albuquerque<br/></a>
+          <a href="https://www.lospoblanos.com/"target="_blank">Los Poblanos de Albuquerque<br/></a>
           Albuquerque, New Mexico
         </p>
         <h3 id="rsvp">RSVP</h3>
         <p>
-          Please RSVP by sending an email with your availability and mailing address to rachelanderik2018@gmail.com
+          Please RSVP (preferably by March 15) by sending an email with your availability and mailing address to <em>rachelanderik2018@gmail.com</em>
         </p>
         <h3 id="accommodations">Accomodations</h3>
         <p>
-          There are a few options for where to stay. All three options are within walking distance of the Hotel Albuquerque, which is where the shuttle will pick up and drop off wedding guests.
+          There are a few options for where to stay while you are in town. All of the hotels listed below are in Albuquerque's Old Town district, and are all within walking distance of the Hotel Albuquerque, which is where the shuttle will pick up and drop off wedding guests (and where we will have the informal wedding after party).
         </p>
         <ol>
           <li>
-            For your convenience, we have pre-booked a block of (discounted) rooms at the historic <a href="https://www.hotelabq.com/">Hotel Albuquerque</a> ($139/night)<br/><br/>
+            For your convenience, we have pre-booked a block of (discounted) rooms at the historic <a href="https://www.hotelabq.com/"target="_blank">Hotel Albuquerque</a> ($139/night)<br/><br/>
             <em>Phone: </em> 1-800-237-2133<br/><br/>
             Ask for Rachel Syme/Erik Hinton Wedding room block (before Aug 2) or refer to block code 1808SH
           </li>
           <li>
-            We have also booked a block of (slightly less expensive) rooms at the nearby <a href="https://www.riograndeinn.com/">Best Western Rio Grande Inn</a> ($108/night).<br/><br/>
+           As an additional option, we have booked a block of (slightly less expensive) rooms at the nearby <a href="https://www.riograndeinn.com/"target="_blank">Best Western Rio Grande Inn</a> ($108/night).<br/><br/>
             <em>Phone:</em> 1-800-959-4726<br/></br>
             Ask for Syme-Hinton Wedding (before July 24)
           </li>
           <li>
-            We also recommend the <a href="https://www.hotelchaco.com/">Hotel Chaco</a>, an elegant new hotel across the street from the Hotel Albuquerque, if you are looking for something really special.
+            We also recommend the <a href="https://www.hotelchaco.com/"target="_blank">Hotel Chaco</a>, an elegant new hotel right across the street from the Hotel Albuquerque, if you are looking for something a bit more modern.
           </li>
+          <li>
+            Lastly, we do want to note that rooms are available at the wedding venue, <a href="https://www.lospoblanos.com/accommodations/rooms/"target="_blank">Los Poblanos</a>, which is a lovely old inn in addition to being a lavender farm. It is a beautiful place to stay, but pricier than the options above. 
+      </li>  
         </ol>
         </p>
         <h3 id="travel">Travel</h3>
         <p>
-        If you are traveling to Albuquerque from New York City, the best option (and a direct flight) is to fly <a href="https://book.jetblue.com/shop/search/#/">JetBlue</a> from JFK. Right now, the fares are very affordable, so we highly recommend booking your flights soon.<br/><br/>
+        If you are traveling to Albuquerque from New York City, the best option (and a direct flight) is to fly <a href="https://book.jetblue.com/shop/search/#/"target="_blank">JetBlue</a> from JFK. Right now, the fares are very affordable, so we highly recommend booking your flights soon.<br/><br/>
 
           For all travelers: Please be sure to fly into the Albuquerque International Sunport.
         </p>
@@ -180,19 +224,60 @@
 
             <li>
               <em>Saturday, August 25th:</em> 4 PM<br/><br/>
-              Wedding at Los Poblanos Lavender Farm<br/><br/>
-              (Shuttle transportation will be provided to and from the venue.)
+              Wedding, Dinner, and Dancing at Los Poblanos Lavender Farm<br/><br/>
+              (Shuttle transportation will be provided between the venue and Hotel Albuquerque.)
             </li>
 
             <li>
               <em>Sunday, August 26th:</em> 11 AM <br/><br/>
-              Brunch reception where everyone can decompress and drink a lot of coffee and mimosas. More details to come.
+              Brunch reception where everyone can decompress, walk in the foothills, and drink a lot of coffee and mimosas. More details to come.
             </li>
           </ul>
         </p>
         <h3 id="registry">Registry</h3>
         <p>
           Our registry is <a href="https://www.zola.com/registry/rachelanderik2018">available on Zola.</a>
+        </p>
+        <h3 id="faq">FAQ</h3>
+        <p>
+          <ul class="schedule-list">
+            <li>
+              <em>This is all very exciting! What should I do first?</em><br/>
+              We know that the wedding is months away, but we highly recommend booking your travel and hotel accommodations now, in order to take advantage of lower plane fares and our special group hotel rates. 
+            </li>
+            <li>
+              <em>How do I RSVP?</em><br/>
+              For now, please send us an RSVP email (preferably by March 15) at <em>rachelanderik2018@gmail.com</em>. Please include your mailing address so we can send you a paper invitation down the line. We can’t wait to see you.
+            </li>
+            <li>
+              <em>When should I arrive?</em><br/>
+              It’s up to you! But if you want to make the welcome dinner, and you are one of our friends traveling from New York City, we recommend flying in on the night of Thursday, August 23 (the JetBlue flight leaves in the evening). 
+            </li>
+            <li>
+              <em>Do I need to rent a car?</em><br/>
+              Albuquerque is, like most Southwestern cities, a land of great sprawl. A car is always useful, especially if you are hoping to have some extra adventures (such as driving to Santa Fe, going turquoise shopping, trying out all the different breakfast burritos around town, or taking in the landscape). However, Albuquerque does have taxis and Lyft, and we will be providing a shuttle to the wedding from the Hotel Albuquerque in Old Town. If you are on the fence about renting a car, just let us know! Perhaps we can pair you with someone else, you can split the cost and have those adventures together…
+            </li>
+            <li>
+              <em>So, what do I need to bring? What is the weather like in Albuquerque in August?</em><br/>
+              The weather in New Mexico is always beautiful! But August is a very special time. It will be hot, but dry, so you won’t have to worry about humidity. The air will smell like cedar and sage and green chile and you will be able to see a sky full of stars. We recommend bringing a bathing suit and shoes you can hike in -- we will be going on an easy group walk through the desert foothills on the Sunday after the wedding, and most of the hotels we listed have nice pools where you can lounge and bask in the sun.
+            </li>
+            <li>
+              <em>What is the wedding attire? I want an excuse to buy new shoes.</em><br/>
+              The official dress code is “cocktail,” but we are also suggesting that people get inspired by the idea of “desert chic.” Feel free to go as fancy as you want. Bolo ties will be accepted. Birkenstocks will not.
+            </li>
+            <li>
+              <em>What is the official wedding hashtag?</em><br/>
+              Stay tuned. It will be unveiled in one of those elaborate videos that bougie couples make to "gender reveal" their baby. However, the official wedding hashtag will be way less gender normative and not involve a baby. Actually, you will have to solve an elaborate series of puzzles to find the hashtag. Even if you do discover what the official wedding hashtag is, it will disappear from sight, as your hands reach for a dying smartphone. As you realize you will never tweet again, you'll hear a booming voice intone, "No one else could tweet this hashtag, since this hashtag was made only for you. I am now going to delete it."
+            </li>
+            <li>
+              <em>What is the official wedding reading list? How can I prepare for the exam portion of the wedding?</em><br/>
+              I won't mince words. Much like they say before the starting gun of the annual three-legged tartlet race, this is not going to be a cakewalk. The first few rounds will test your knowledge of post-Marxist theories of democratic dissensus. The second through fifth segments will be successive lightning rounds about Sex and the City, Serbian film giant Dusan Makavejev, the myth of Los Angeles, and favorite mixed dog breeds.
+            </li>
+            <li>
+              <em>Wait! I still have more questions.</em><br/>
+              No problem. Email us at rachelanderik2018@gmail.com and we will get back to you with all the answers your heart desires. 
+            </li>
+          </ul>
         </p>
       </div>
       <div id="lav"></div>
